@@ -24,18 +24,51 @@ public class Day3 {
         // System.out.println("menambahkan ke "my bini " "); nah ini error krna simbol " petik dua dianggap akhir string , cara fixnya :
         System.out.println("menambahkan ke \"my bini \" "); // nah ini bru bisa karena ada escape \"" hal ini juga sama di dengan simbol \''
 
-        // 3. escape \\ double slash , biasanya buat nentuin path yg pake \\ 
+        // 4. escape \\ double slash , biasanya buat nentuin path yg pake \\ 
         // System.out.println("C:\adi\java");  ini dia error krna dia nganggap kalo simbol \ kita mau melakukan escape , dan cara yg benar  :
         System.out.println("C:\\adi\\java"); // solusinya pake double slash biar bs di print dan outputnya jadi "C:\adi\java"
 
- // 4. backspace \b buat hapus 1 karakter didepan , contoh kodenya 
+ // 5. backspace \b buat hapus 1 karakter didepan , contoh kodenya 
  System.out.println("ABC\bD"); // outputnya "ABC" krena \b ngapus D 
 
- //5. space \s buat nambahin spasi ke dalam string contohnya :
+ //6. space \s buat nambahin spasi ke dalam string contohnya :
  System.out.println("Hello\sWorld"); // nah ini dia bakal "Hello World" jadi ada spasi gtu 
 
- // carriage return , \r mengembalikan posisi cursor ke awal baris.
+
+ // 7. carriage return , \r mengembalikan posisi cursor ke awal baris.
  System.out.print("Hello\rWorld");
+ // outputnya 
+ /*
+ Hello
+hell o   ← "hell" menimpa 4 karakter, "o" masih tersisa
+hel lo
+he llo
+h ello
+w ello
+wo llo
+world
+ */
+
+// 8. Single quote \' , konsepnya sama dengan \".
+//    \' digunakan ketika simbol ' perlu dianggap sebagai karakter literal,
+//    bukan sebagai penutup char.
+//
+//    Contoh:
+//    char simbol = '\''; // outputnya hanya karakter '
+//
+//    Sedangkan pada String, simbol ' tidak perlu di-escape:
+//    System.out.print("I'm Adi"); // valid, tidak error
+
+char simbol = '\''; // outputnya hanya karakter '
+  
+
+
+// 9. form feed \f fungsinya untuk memberi perintah ke printer agar maju ke halaman/form berikutnya.
+// contohnya :
+System.out.print("Halaman 1\fHalaman 2");
+
+
+
 
 
     }
