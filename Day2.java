@@ -15,18 +15,14 @@ public class Day2 {
 
         // 2. print -> tetap di baris yg sama
         System.out.print("Nama   : ");
-        System.out.println(nama); // digabung biar lanjut baris baru
-
+        System.out.println(nama); // digabung biar lanjut baris baru\
         System.out.print("Kelas  : ");
         System.out.print(kelas);
-        System.out.print(" | Jurusan: RPL"); // masih lanjut di baris yg sama
-        
+        System.out.print(" | "); // masih lanjut di baris yg sama
         System.out.println(); // ini buat enter manual
-
         // 3. printf -> buat format biar rapi
         System.out.printf("Tinggi : %.1f cm", tinggi); 
         System.out.printf("\nStatus : %s", "Aktif"); // \n = enter manual
-        
         System.out.println("\n===================================");
     }
 }
