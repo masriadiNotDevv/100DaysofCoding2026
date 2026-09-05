@@ -12,7 +12,7 @@ public class Day4 {
         // 3. Int / kisaran -2,147,483,648 hingga 2,147,483,647 dan ini typedata integer yg paling umum digunakan 
         int jumlahView = 23000020;  // 32bit
 
-        // 4. long / typedata yg paling besar ,
+        // 4. long / typedata integer yg paling besar ,
         long jumlahPopulasiManusia = 10000000000000L; // 64bit , kenapa ada L ? , karena supaya java tau kalo typedata itu adalah long dan jika tidak memasukan karakter L maka akan terjadi error karena java menganggap kalo typedata itu cm int biasa
 
         // semua typedata diatas dihitung dari beberapa gabungan bit karena itu ukuran paling kacil yg dimengerti komputer dan bit ini hanya ada angka yaitu 0 dan 1 
