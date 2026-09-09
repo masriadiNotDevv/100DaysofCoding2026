@@ -10,5 +10,9 @@ deklarasi = membuat variabel yg nilainy belum ada,
 
   nama = "0xadi"; // ini inisialisasi, untuk memberikan nilai pertama ke dalam variabel nama
 
+ // dengan cara ini kita bisa melakukan update variabel selagi variabel tsbt di deklarasi 
+ // seperti variabel " nama" di atas 
+ nama = "hayy";
+ 
 }
 }
