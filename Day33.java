@@ -1,10 +1,13 @@
 public class Day33 {
     public static void main(String[] args) {
-        int umur = 21;
-        if (umur >= 18) {
-            System.out.println("umur cukup");
+
+        int nilai = 85;
+
+        if (nilai >= 75) {
+            System.out.println("Anda lulus");
         } else {
-            System.out.println("anda masih bocah");
+            System.out.println("Anda tidak lulus");
         }
+
     }
 }
