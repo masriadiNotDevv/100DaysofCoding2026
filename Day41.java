@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Day41 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.err.print("Masukan suhu ruangan (c) : ");
+        System.out.print("Masukan suhu ruangan (c) : ");
         int suhu = in.nextInt();
 
         if (suhu < 18) {
