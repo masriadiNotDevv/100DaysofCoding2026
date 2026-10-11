@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Day40{
+public class Day41 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.err.print("Masukan suhu ruangan (c) : ");
